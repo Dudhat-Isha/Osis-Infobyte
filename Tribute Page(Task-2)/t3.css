@@ -1,0 +1,134 @@
+:root {
+    --primary-color: #3F51B5;
+    --text-icon-color: #F5F5F5;
+    --secondary-text-color: #757575;
+    --divider-color: #BDBDBD;
+    --accent-color: #FF4081;
+}
+
+body {
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+    color: var(--secondary-text-color);
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: var(--primary-color);
+}
+
+a:hover {
+    cursor: pointer;
+    color: var(--accent-color);
+}
+
+.cover-image {
+    width: 100vw;
+    height: 100vh;
+    background: url("image2.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.cover-page {
+    width: 100vw;
+    height: 100vh;
+    background-color: #3e456b;
+    opacity: 0.8;
+}
+
+.virat {
+    width: 80%;
+    position: absolute;
+    top: 40%;
+    left: 5%;
+    -webkit-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+}
+
+.virat-title {
+    font-family: 'Cinzel Decorative', cursive;
+    font-size: 60px;
+    color: var(--text-icon-color);
+}
+
+.virat-text {
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 40px;
+    color: var(--text-icon-color);
+}
+
+.scroll {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 60px;
+    width: 200px;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.virat-scroll {
+    cursor: pointer;
+    padding-bottom: 30px;
+    color: white;
+}
+
+.mouse {
+    width: 50px;
+    height: 90px;
+    border: 3px solid #ffffff;
+    border-radius: 60px;
+    position: relative;
+
+    &::before {
+        content: '';
+        width: 12px;
+        height: 12px;
+        position: absolute;
+        top: 10px;
+        left: 50%;
+        transform: translateX(-50%);
+        background-color: #ffffff;
+        border-radius: 50%;
+        opacity: 1;
+        animation: wheel 2s infinite;
+        -webkit-animation: wheel 2s infinite;
+    }
+}
+
+@keyframes wheel {
+    to {
+        opacity: 0;
+        top: 60px;
+    }
+}
+
+@-webkit-keyframes wheel {
+    to {
+        opacity: 0;
+        top: 60px;
+    }
+}
+
+.virat-main {
+    margin-top: 20px;
+}
+
+
+.table-heading {
+    background-color: var(--primary-color);
+    color: var(--text-icon-color);
+}

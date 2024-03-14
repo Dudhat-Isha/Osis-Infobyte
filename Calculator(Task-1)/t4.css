@@ -1,0 +1,121 @@
+*{
+    color: white; 
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    text-align: center;
+    display: flex;
+    height: 100%;
+}
+
+
+#calc{
+    background-color: black;
+    padding: 15px 15px 15px 15px;
+    position: absolute;
+    top: 10%;
+    left: 40%;
+    border-radius: 8px;
+    box-shadow: 0 20px 50px rgba(31, 35, 49, 0.4);
+}
+
+#content{
+    text-align: center;
+    border: none;
+}
+
+#c1{
+    padding: 20px 0px 20px 0px;
+    width: 100%;
+    margin-bottom: 5%;
+    background-color: transparent;
+    text-align: right;
+    font-size: larger;
+    border: none;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+}
+
+#b1{
+    font-size: larger;
+}
+
+button{
+    border-radius: 50%;
+    margin: 5px 5px 5px 5px;
+    text-align: center;
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+}
+
+#b2 :visited{
+    background-color: rgb(40, 41, 41);
+    color: white;
+}
+
+#b2{
+    background-color: rgba(16, 15, 15, 0.831);
+    border: none;
+    font-size: 90%;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+}
+
+#b2:hover {
+    background-color: rgb(26, 25, 25);
+    color: white;
+    transform: scale(0.93);
+}
+
+#b2:active{
+    background-color: #1a1b1a;
+    color: white;
+}
+
+#b3:visited{
+    background-color: rgb(40, 41, 41);
+    color: white;
+}
+
+#b3{
+    background-color: rgba(72, 70, 70, 0.434);
+    border: none;
+    font-size: 90%;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+}
+
+#b3:hover {
+    background-color: rgb(57, 56, 56);
+    color: white;
+    transform: scale(0.93);
+}
+
+#b3:active{
+    background-color: #1a1b1a;
+    color: white;
+}
+
+#b4:visited{
+    background-color: rgb(179, 80, 44);
+    color: white;
+}
+
+#b4{
+    background-color: rgb(168, 81, 50);
+    border: none;
+    font-size: 90%;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+}
+
+#b4:hover {
+    background-color: rgb(176, 91, 61);
+    color: white;
+    transform: scale(0.93);
+}
+
+#b4:active{
+    background-color: rgb(168, 81, 50);
+    color: white;
+}
